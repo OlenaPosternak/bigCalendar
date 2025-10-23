@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./eventPopUp.css";
 
 export const EventPopUp = ({ isOpen, onClose, onSave, date, event }) => {
   const [title, setTitle] = useState("");
@@ -61,20 +62,7 @@ export const EventPopUp = ({ isOpen, onClose, onSave, date, event }) => {
   };
 
   return (
-    <div
-      style={{
-        position: "fixed",
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        padding: "20px",
-        backgroundColor: "white",
-        border: "1px solid black",
-        borderRadius: "10px",
-        zIndex: 10,
-        minWidth: "300px",
-      }}
-    >
+    <div className="event-container">
       <form
         onSubmit={handleSubmit}
         style={{

@@ -1,14 +1,15 @@
 import { Header } from "./components/Header/Header";
-
+import { EventCalendar } from "./components/Calendar/BigCalendar/EventCalendar";
+import { SideBar } from "./components/SideBar/SideBar";
 import "./App.css";
-import { MyCalendar } from "./components/Calendar/myCalendar";
 
 function App() {
   return (
     <>
+      <SideBar />
       <div className={`App`}>
         <Header />
-        <MyCalendar />
+        <EventCalendar />
       </div>
     </>
   );
