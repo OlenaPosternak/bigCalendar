@@ -1,17 +1,24 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import { Header } from "./components/Header/Header";
-import { EventCalendar } from "./components/Calendar/BigCalendar/EventCalendar";
 import { SideBar } from "./components/SideBar/SideBar";
+import { Calendar } from "./components/Calendar/Calendar";
 import "./App.css";
 
 function App() {
   return (
-    <>
+    <Router>
       <SideBar />
-      <div className={`App`}>
-        <Header />
-        <EventCalendar />
+      <Header />
+
+      <SideBar />
+      <div className="page-content">
+        <Routes>
+          <Route path="/" element={<Calendar />} />
+          <Route path="/calendar" element={<Calendar />} />
+        </Routes>
       </div>
-    </>
+    </Router>
   );
 }
 

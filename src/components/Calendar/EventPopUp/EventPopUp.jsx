@@ -35,7 +35,7 @@ export const EventPopUp = ({ isOpen, onClose, onSave, date, event }) => {
   };
 
   const validationSchema = Yup.object().shape({
-    title: Yup.string().required("Title is required"),
+    title: Yup.string().max(30).required("Title is required"),
     date: Yup.date().required("Date is required"),
     time: Yup.string().required("Time is required"),
   });
