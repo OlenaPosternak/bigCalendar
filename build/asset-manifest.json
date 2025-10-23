@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bigCalendar/static/css/main.bbe6b1b7.css",
+    "main.js": "/bigCalendar/static/js/main.d6ef92b7.js",
+    "index.html": "/bigCalendar/index.html",
+    "main.bbe6b1b7.css.map": "/bigCalendar/static/css/main.bbe6b1b7.css.map",
+    "main.d6ef92b7.js.map": "/bigCalendar/static/js/main.d6ef92b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe6b1b7.css",
+    "static/js/main.d6ef92b7.js"
+  ]
+}
