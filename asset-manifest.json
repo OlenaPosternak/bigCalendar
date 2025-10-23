@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bigCalendar/static/css/main.4aa2fb72.css",
-    "main.js": "/bigCalendar/static/js/main.c30fdef6.js",
+    "main.css": "/bigCalendar/static/css/main.bd16e5da.css",
+    "main.js": "/bigCalendar/static/js/main.f6b203e8.js",
     "index.html": "/bigCalendar/index.html",
-    "main.4aa2fb72.css.map": "/bigCalendar/static/css/main.4aa2fb72.css.map",
-    "main.c30fdef6.js.map": "/bigCalendar/static/js/main.c30fdef6.js.map"
+    "main.bd16e5da.css.map": "/bigCalendar/static/css/main.bd16e5da.css.map",
+    "main.f6b203e8.js.map": "/bigCalendar/static/js/main.f6b203e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aa2fb72.css",
-    "static/js/main.c30fdef6.js"
+    "static/css/main.bd16e5da.css",
+    "static/js/main.f6b203e8.js"
   ]
 }
