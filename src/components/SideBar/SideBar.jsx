@@ -15,7 +15,7 @@ import {
 } from "react-icons/fi";
 
 export const menu = [
-  { id: 1, title: "Home", icon: <FiHome />, link: "/" },
+  { id: 1, title: "Home", icon: <FiHome />, link: "/home" },
   { id: 2, title: "Dashboard", icon: <FiGrid />, link: "/dashboard" },
   { id: 3, title: "Inbox", icon: <FiInbox />, link: "/inbox" },
   { id: 4, title: "Calendar", icon: <FiCalendar />, link: "/calendar" },
@@ -29,7 +29,7 @@ export const menu = [
 export const SideBar = () => {
   return (
     <div className="sidebar">
-      <a className="logo" href="/">
+      <a className="logo" href="/bigCalendar/home">
         IMPEKABLE
       </a>
 

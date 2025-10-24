@@ -7,14 +7,14 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/bigCalendar">
       <SideBar />
       <Header />
 
       <SideBar />
       <div className="page-content">
         <Routes>
-          <Route path="/" element={<Calendar />} />
+          <Route path="/home" element={<Calendar />} />
           <Route path="/calendar" element={<Calendar />} />
         </Routes>
       </div>
